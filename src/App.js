@@ -3,7 +3,6 @@ import React from 'react';
 import { UIRouter, pushStateLocationPlugin} from '@uirouter/react';
 //components
 import Home from './components/home/Home';
-import Productos from './components/productos/Productos';
 import { translations } from '@aws-amplify/ui';
 import { I18n } from 'aws-amplify';
 import Exportar from './components/exportar/Exportar'
@@ -42,10 +41,6 @@ const states = [
     name : 'layout.home',
     url  : '/',
     component : Home
-  },{
-    name : 'layout.productos',
-    url  : '/productos',
-    component : Productos
   }
 ]
 

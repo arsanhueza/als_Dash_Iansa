@@ -28,15 +28,6 @@ export function Lists({ signOut, user }) {
               <ListItemText primary="Guías"/>
            </ListItem>
 		  </UISref>
-
-          <UISref to="layout.productos">
-          <ListItem button>
-              <ListItemIcon>
-               <InfoIcon />
-              </ListItemIcon>
-              <ListItemText primary="Productos"/>
-           </ListItem>
-		  </UISref>
       <main>
       <Button style={{margin: '0 auto', display: "flex"}} size='large' variant="contained" onClick={signOut}>
         Cerrar Sesión
