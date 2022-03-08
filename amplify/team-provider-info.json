@@ -1,0 +1,15 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-demoiansa-staging-20701-authRole",
+      "UnauthRoleArn": "arn:aws:iam::289162428673:role/amplify-demoiansa-staging-20701-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::289162428673:role/amplify-demoiansa-staging-20701-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-demoiansa-staging-20701-deployment",
+      "UnauthRoleName": "amplify-demoiansa-staging-20701-unauthRole",
+      "StackName": "amplify-demoiansa-staging-20701",
+      "StackId": "arn:aws:cloudformation:us-east-1:289162428673:stack/amplify-demoiansa-staging-20701/71aba9f0-9e84-11ec-98ee-12623184991d",
+      "AmplifyAppId": "d1q7mwo0uj30se"
+    }
+  }
+}
