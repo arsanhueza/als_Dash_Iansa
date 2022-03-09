@@ -3,7 +3,7 @@
   "serviceConfiguration": {
     "apiName": "Iansa",
     "serviceName": "AppSync",
-    "gqlSchemaPath": "/tmp/amplify-cc70724b-b533-4e5a-8645-a955aa783334/amplify/backend/api/Iansa/schema.graphql",
+    "gqlSchemaPath": "/tmp/amplify-45d4921a-cd9c-4d8f-96d3-59fa09e91328/amplify/backend/api/Iansa/schema.graphql",
     "defaultAuthType": {
       "mode": "API_KEY",
       "keyDescription": "api key description",

@@ -10,6 +10,11 @@
       "StackName": "amplify-iansa-staging-04757",
       "StackId": "arn:aws:cloudformation:us-east-1:289162428673:stack/amplify-iansa-staging-04757/909e3cb0-9f42-11ec-8881-0aab5c508689",
       "AmplifyAppId": "ddye6d5v5vr31"
+    },
+    "categories": {
+      "auth": {
+        "Iansa": {}
+      }
     }
   }
 }

@@ -1,7 +1,7 @@
 export const schema = {
     "models": {
-        "UntitledModel": {
-            "name": "UntitledModel",
+        "Todo": {
+            "name": "Todo",
             "fields": {
                 "id": {
                     "name": "id",
@@ -119,7 +119,7 @@ export const schema = {
                 }
             },
             "syncable": true,
-            "pluralName": "UntitledModels",
+            "pluralName": "Todos",
             "attributes": [
                 {
                     "type": "model",
@@ -146,5 +146,5 @@ export const schema = {
     },
     "enums": {},
     "nonModels": {},
-    "version": "5d922731bacc66ee274d2bff4c539775"
+    "version": "1d2363d09384f3db5dd63c5f094bb8cc"
 };
