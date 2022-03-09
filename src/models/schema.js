@@ -1,34 +1,13 @@
 export const schema = {
     "models": {
-        "Todo": {
-            "name": "Todo",
+        "UntitledModel": {
+            "name": "UntitledModel",
             "fields": {
                 "id": {
                     "name": "id",
                     "isArray": false,
                     "type": "ID",
                     "isRequired": true,
-                    "attributes": []
-                },
-                "chofer": {
-                    "name": "chofer",
-                    "isArray": false,
-                    "type": "String",
-                    "isRequired": false,
-                    "attributes": []
-                },
-                "arrastre": {
-                    "name": "arrastre",
-                    "isArray": false,
-                    "type": "String",
-                    "isRequired": false,
-                    "attributes": []
-                },
-                "patente": {
-                    "name": "patente",
-                    "isArray": false,
-                    "type": "String",
-                    "isRequired": false,
                     "attributes": []
                 },
                 "nroguia": {
@@ -45,8 +24,8 @@ export const schema = {
                     "isRequired": false,
                     "attributes": []
                 },
-                "estado": {
-                    "name": "estado",
+                "estad": {
+                    "name": "estad",
                     "isArray": false,
                     "type": "String",
                     "isRequired": false,
@@ -101,8 +80,22 @@ export const schema = {
                     "isRequired": false,
                     "attributes": []
                 },
-                "untitledfield": {
-                    "name": "untitledfield",
+                "chofer": {
+                    "name": "chofer",
+                    "isArray": false,
+                    "type": "String",
+                    "isRequired": false,
+                    "attributes": []
+                },
+                "patente": {
+                    "name": "patente",
+                    "isArray": false,
+                    "type": "String",
+                    "isRequired": false,
+                    "attributes": []
+                },
+                "arrastre": {
+                    "name": "arrastre",
                     "isArray": false,
                     "type": "String",
                     "isRequired": false,
@@ -126,7 +119,7 @@ export const schema = {
                 }
             },
             "syncable": true,
-            "pluralName": "Todos",
+            "pluralName": "UntitledModels",
             "attributes": [
                 {
                     "type": "model",
@@ -153,5 +146,5 @@ export const schema = {
     },
     "enums": {},
     "nonModels": {},
-    "version": "f50ec6ed41c8c6d88729a3ee7bf62d52"
+    "version": "5d922731bacc66ee274d2bff4c539775"
 };

@@ -1,11 +1,8 @@
-type Todo @model @auth(rules: [{allow: public}]) {
+type UntitledModel @model @auth(rules: [{allow: public}]) {
   id: ID!
-  chofer: String
-  arrastre: String
-  patente: String
   nroguia: String
   rutcliente: String
-  estado: String
+  estad: String
   pesototal: String
   cliente: String
   fechadespacho: String
@@ -13,5 +10,7 @@ type Todo @model @auth(rules: [{allow: public}]) {
   nrobultos: String
   producto: String
   turno: String
-  untitledfield: String
+  chofer: String
+  patente: String
+  arrastre: String
 }
